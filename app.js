@@ -11,7 +11,7 @@ app.use('/blogApp/blogs',blogRouter)
 
 
 mongoose
-        .connect('mongodb+srv://admin:4mGvHwWg91tIT99e@cluster0.gnq731a.mongodb.net/Blog?retryWrites=true&w=majority'
+        .connect('mongodb+srv://username:password@cluster0.gnq731a.mongodb.net/Blog?retryWrites=true&w=majority'
         )
         .then(()=>app.listen(3000))
         .then(()=>console.log('connected and running in port 3000'))
